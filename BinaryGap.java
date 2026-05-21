@@ -20,7 +20,7 @@ public class BinaryGap {
                 //     left++;
                 // }
                 // System.out.println("Left: " + left + " Right: " + right);
-                if(left==-1) max_length = Math.max(max_length, right-left-1);
+                if(left!=-1) max_length = Math.max(max_length, right-left-1);
                 left = right;
             }
         }
@@ -28,6 +28,6 @@ public class BinaryGap {
     }
     public static void main(String[] args) {
         // System.out.println(convertBinary(529));
-        System.out.println(solution(32));
+        System.out.println(solution(1041));
     }
 }
