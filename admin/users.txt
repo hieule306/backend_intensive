@@ -19,3 +19,10 @@ username:hilahila
 password:afd
 locked:1
 ------------
+FirstName:something
+lastName:somesome
+DOB:123.123/234
+username:Kam
+password:Howdy
+locked:0
+------------
